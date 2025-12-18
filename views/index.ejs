@@ -1,0 +1,16 @@
+<!-- Header -->
+<%- include("partials/header.ejs") %>
+
+<!-- Show generated band name or default message -->
+<% if (locals.adjective && locals.noun) { %>
+  <h1>🎶 <%= adjective %> <%= noun %> 🎶</h1>
+<% } else { %>
+  <h1>Ready to discover your next legendary band name? 🤟</h1>
+<% } %>
+
+<form action="/submit" method="POST">
+  <input type="submit" value="Generate a Silly Band Name 🎤">
+</form>
+
+<!-- Footer -->
+<%- include("partials/footer.ejs") %>
