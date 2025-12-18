@@ -26,7 +26,7 @@ In Section 24, the focus was on backend fundamentals using Express. This include
 
 In Section 25, EJS was introduced to solve the problem of rendering dynamic content. This project uses `res.render()` to generate HTML dynamically, passes data safely using `locals`, and uses EJS partials to reuse common UI elements like headers and footers. Static assets are served using Express, and form input is used to generate dynamic output on the page.
 
-This project was created as a focused application of the concepts learned so far. A more complete, full-fledged project combining all of these ideas is built later in the course.
+This project was created as a focused application of the concepts learned so far.
 
 ## 🚦 Running the Project
 
